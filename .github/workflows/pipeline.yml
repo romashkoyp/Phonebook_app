@@ -18,8 +18,14 @@ jobs:
       - name: Install dependencies for backend
         run: npm install
 
+      - name: Eslint for backend
+        run: npm run lint
+
       - name: Install dependencies for frontend
         run: cd frontend && npm install
+
+      - name: Eslint for frontend
+        run: npm run lint      
 
       - name: Build
         run: npm run build:ui
