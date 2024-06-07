@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Positive = ({ message }) => {
     if (message === null) {
       return null
