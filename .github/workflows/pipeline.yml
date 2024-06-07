@@ -25,7 +25,7 @@ jobs:
         run: cd frontend && npm install
 
       - name: Eslint for frontend
-        run: npm run lint      
+        run: cd frontend && npm run lint      
 
       - name: Build
         run: npm run build:ui

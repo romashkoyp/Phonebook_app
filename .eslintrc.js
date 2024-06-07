@@ -5,6 +5,11 @@ module.exports = {
     'node': true
   },
   'extends': 'eslint:recommended',
+  'settings': {
+    'react': {
+      'version': '18.2.0'
+    },
+  },
   'parserOptions': {
     'ecmaVersion': 'latest'
   },
